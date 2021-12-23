@@ -1,24 +1,10 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import styles from "../css/layout.module.css";
 
 class Layout extends React.Component {
   render() {
-    return (
-      <div>
-        {/* <nav>
-          <ul>
-            <li>
-              <Link to="/">LoginPage</Link>
-            </li>
-            <li>
-              <Link to="/welcome">WelcomePage</Link>
-            </li>
-          </ul>
-        </nav>
-
-        <Outlet /> */}
-      </div>
-    );
+    return <div className={styles.layoutBody}><Outlet /></div>;
   }
 }
 

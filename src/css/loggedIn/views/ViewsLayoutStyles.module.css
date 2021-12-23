@@ -1,0 +1,15 @@
+.bodyContainer {
+    height: 100%;
+}
+
+.contentWrapper {
+    background-color: #ffffff;
+    border-radius: 50px 50px 0 0;
+    height: 90%;
+    padding: 0 20px;
+}
+
+.title {
+    padding: 40px 0 0 0;
+    margin: 0;
+}

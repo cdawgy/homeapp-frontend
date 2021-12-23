@@ -1,17 +1,3 @@
-.loginBody {
-  margin: 0;
-  padding: 20px 0 0 0;
-  height: 100vh;
-  width: 100vw;
-  background: rgb(255, 222, 58);
-  background: linear-gradient(
-    135deg,
-    rgba(255, 222, 58, 1) 0%,
-    rgba(255, 170, 58, 1) 25%
-  );
-  position: relative;
-}
-
 .loginForm {
   height: 80%;
   width: 100%;
