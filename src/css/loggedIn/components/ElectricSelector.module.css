@@ -1,0 +1,43 @@
+.selectorContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.houseMemberContainer {
+    width: 80%;
+}
+
+.houseMember {
+    background-color: #FFAA3A;
+    display: flex;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+}
+
+.houseMember img {
+    margin: 0 10px 0 10px;
+}
+
+.arrowContainer {
+    width: 20%;
+    display: flex;
+}
+
+.dashedLine {
+    height: 100%;
+    border: #333333 2px dashed;
+    margin: auto;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: -22px;
+}
